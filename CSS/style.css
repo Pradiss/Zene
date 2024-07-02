@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+strong{
+    color: #FFFC52;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Poppins";
+}
+
+p {
+    font-family: "Fira Sans";
+}
+ 
+
+
+hr {
+    width: 100%;
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+    color: white;
+}
+
+/* botao  */
+#btnn{
+    width: 70px;
+}
+#btnBanner{
+    border-radius: 100px;
+    border: none;
+}
+
+/* Formatação Header */
+
+.barraPesquisa{
+    width:40%;
+    border-radius:150px;
+    border: 1px transparent #000;
+}
+
+/* Formatação o main */
+.textoMain{
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background: url(../img/background.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.textoMain button{
+    position: relative;
+    transition: all 350ms ease-in-out;
+    background: none;
+    color: #000;
+    width: 350px;
+    background-color: rgba(242, 236, 206, 0.1);
+}
+
+.textoMain button:hover{
+    color: #000;
+    background-color: #FFFC52;
+    font-weight:bolder;
+    transform: translateY(.5rem);
+}
+/* Formatação do Banner */
+
+
+
+
+/* Formatação de Cards */
+
+.card {
+    border: none;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: light;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+/* Formatação Das Categoria */
+.categorias {
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.botaoCard{
+    background-color: rgba(238, 223, 149, 0.8);
+    color: #000;
+}
+
+.botaoCard:hover{
+    background-color: #000;
+    color: rgba(236, 201, 26, 0.8);
+}
+
+#categoria {
+    
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+}
+.text-content{
+    position: absolute;
+    color: #fff;
+    z-index: 9999;
+    margin-top: -10rem;
+    margin-left: 7rem;
+}
+
+/* foto card gaby */
+
+
+
+/* Formatação do footer */
+
+footer {
+    background-color: #ccc;
+}
+
+
+footer h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer p {
+    font-weight: light;
+}
+
+a {
+    text-decoration: none;
+}
+
+.simbols {
+    color: #000;
+}
+
+
+#btnn{
+
+    width: 100px;
+}
+
+
+.btn-perfil {
+    color: none;
+    border: none;
+    width: 50px;
+}
+
+#button {
+    width: 400px;
+    border-radius: 5px;
+}
+
+
+
+/* style CSS do login  */
+#login a {
+    text-decoration: none;
+    color: #393939;
+
+}
+
+#login button {
+
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    margin: 4px;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.06);
+}
+#login form {
+    width: 100%;
+
+}
+
+.text-link a {
+    text-decoration: underline !important;
+    color: #ccc !important;
+
+}
+
+/* pagina cadastro */
+#cadastro,
+label,
+input {
+    width: 100%;
+    padding: 10px;
+}
+#cadastro{
+    color: #fff;
+}
+
+#cadastro button {
+    width: 50%;
+
+}
+
+
+/* Animações */
+header div h1 {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+header div h1:hover {
+    /* animation: move 500ms ease-out ; */
+    position: relative;
+    transform: translateX(1rem)
+}
+
+
+
+#categorias img {
+    width: 250px;
+
+}
+
+#titulo {
+    padding: 30px;
+}
+
+
+.cardContainer {
+    margin: 150px 0px 150px 0px;
+}
+
+
+/* Formatação da pag Quem somos */
+
+
+
+.mainQuemSomos button {
+    position: relative;
+    transition: all 350ms ease-in-out;
+    background: none;
+    color: #000;
+}
+
+.mainQuemSomos button:hover {
+    position: relative;
+    color: #fff;
+    background: #000;
+    transform: translatey(0.5rem);
+    text-decoration: underline;
+}
+
+/* Formatação da pag FAQ */
+
+.mainFaq{
+    min-height: 900px;
+}
+
+.faq {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.faq label {
+    color: #000;
+    font-weight: bold;
+}
+
+.question {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.question:checked {
+    position: relative;
+
+}
+
+.question:checked~.answer {
+    display: block;
+    position: relative;
+
+}
+
+
+
+
+
+/* CHAT */
+
+
+
+
+#chatFooter{
+    min-height:930px;
+}
+.card {
+    background: #fff;
+    transition: .5s;
+    border: 0;
+    margin-bottom: 30px;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+.chat-app .people-list {
+    width: 280px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    z-index: 7
+}
+
+.chat-app .chat {
+    margin-left: 280px;
+    border-left: 1px solid #eaeaea
+}
+
+.people-list {
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.people-list .chat-list li {
+    padding: 10px 15px;
+    list-style: none;
+    border-radius: 3px
+}
+
+.people-list .chat-list li:hover {
+    background: #efefef;
+    cursor: pointer
+}
+
+.people-list .chat-list li.active {
+    background: #efefef
+}
+
+.people-list .chat-list li .name {
+    font-size: 15px
+}
+
+.people-list .chat-list img {
+    width: 45px;
+    border-radius: 50%
+}
+
+.people-list img {
+    float: left;
+    border-radius: 50%
+}
+
+.people-list .about {
+    float: left;
+    padding-left: 8px
+}
+
+.people-list .status {
+    color: #999;
+    font-size: 13px
+}
+
+.chat .chat-header {
+    padding: 15px 20px;
+    border-bottom: 2px solid #f4f7f6
+}
+
+.chat .chat-header img {
+    float: left;
+    border-radius: 40px;
+    width: 40px
+}
+
+.chat .chat-header .chat-about {
+    float: left;
+    padding-left: 10px
+}
+
+.chat .chat-history {
+    padding: 20px;
+    border-bottom: 2px solid #fff
+}
+
+.chat .chat-history ul {
+    padding: 0
+}
+
+.chat .chat-history ul li {
+    list-style: none;
+    margin-bottom: 30px
+}
+
+.chat .chat-history ul li:last-child {
+    margin-bottom: 0px
+}
+
+.chat .chat-history .message-data {
+    margin-bottom: 15px
+}
+
+.chat .chat-history .message-data img {
+    border-radius: 40px;
+    width: 40px
+}
+
+.chat .chat-history .message-data-time {
+    color: #434651;
+    padding-left: 6px
+}
+
+.chat .chat-history .message {
+    color: #444;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative
+}
+
+.chat .chat-history .message:after {
+    bottom: 100%;
+    left: 7%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px
+}
+
+.chat .chat-history .my-message {
+    background: #efefef
+}
+
+.chat .chat-history .my-message:after {
+    bottom: 100%;
+    left: 30px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #efefef;
+    border-width: 10px;
+    margin-left: -10px
+}
+
+.chat .chat-history .other-message {
+    background: #e8f1f3;
+    text-align: right
+}
+
+.chat .chat-history .other-message:after {
+    border-bottom-color: #e8f1f3;
+    left: 93%
+}
+
+.chat .chat-message {
+    padding: 20px
+}
+
+.online,
+.offline,
+.me {
+    margin-right: 2px;
+    font-size: 8px;
+    vertical-align: middle
+}
+
+.online {
+    color: #86c541
+}
+
+.offline {
+    color: #e47297
+}
+
+.me {
+    color: #1d8ecd
+}
+
+.float-right {
+    float: right
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+
+
+
+.generosMsc {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: top;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.generosMsc:hover {
+    transform: translateY(0);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.panel a {
+    color: #000;
+}
+
+.panel p{
+    border-bottom: 1px #ccc solid;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;    
+}
+
+.containerGenero{
+    border: 1px #000 solid;
+}
+.checkbox-wrapper-2 .toggle {
+    appearance: none;
+    background-color: #dfe1e4;
+    border-radius: 72px;
+    border-style: none;
+    flex-shrink: 0;
+    height: 20px;
+    margin: 0;
+    position: relative;
+    width: 30px;
+  }
+
+  .checkbox-wrapper-2 .toggle::before {
+    bottom: -6px;
+    content: "";
+    left: -6px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+
+  .checkbox-wrapper-2 .toggle,
+  .checkbox-wrapper-2 .toggle::after {
+    transition: all 100ms ease-out;
+  }
+
+  .checkbox-wrapper-2 .toggle::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+  }
+
+  .checkbox-wrapper-2 input[type=checkbox] {
+    cursor: default;
+  }
+
+  .checkbox-wrapper-2 .toggle:hover {
+    background-color: #c9cbcd;
+    transition-duration: 0s;
+  }
+
+  .checkbox-wrapper-2 .toggle:checked {
+    background-color: #6e79d6;
+  }
+
+  .checkbox-wrapper-2 .toggle:checked::after {
+    background-color: #fff;
+    left: 13px;
+  }
+
+  .checkbox-wrapper-2 :focus:not(.focus-visible) {
+    outline: 0;
+  }
+
+  .checkbox-wrapper-2 .toggle:checked:hover {
+    background-color: #535db3;
+  }
+
+.checkbox-wrapper-2{
+    display: flex;
+    align-items: center;
+}
+
+.labelCat{
+    display: flex;
+    
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .chat-app .people-list {
+        height: 200px;
+        width: 100%;
+        overflow-x: auto;
+        background: #fff;
+        margin-top:490px;
+        
+    }
+    .chat-app .people-list.open {
+        left: 0;
+    }
+    .chat-app .chat {
+        margin: 0
+    }
+    .chat-app .chat .chat-header {
+        border-radius: 0.55rem 0.55rem 0 0
+    }
+    .chat-app .chat-history {
+        height: 300px;
+        overflow-x: auto
+    }
+
+    .text-content{  
+        margin-top: -6rem;
+        margin-left: 4rem;
+    }
+}
+    .barraPesquisa {
+        width:40%;
+        margin-left: 3%;
+        border-radius:90px;
+        border: 0.20px solid(rgba(0, 0, 0, 0.1));
+        border-color: #444;
+    }
+    
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .chat-app .chat-list {
+        height: 650px;
+        overflow-x: auto
+    }
+    .chat-app .chat-history {
+        height: 600px;
+        overflow-x: auto
+    }
+    .barraPesquisa {
+        width:40%;
+        margin-left: 5%;
+        border-radius:90px;
+        border: 0.20px solid(rgba(0, 0, 0, 0.1));
+        border-color: #444;
+    }
+
+    
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .chat-app .chat-list {
+        height: 480px;
+        overflow-x: auto
+    }
+    .chat-app .chat-history {
+        height: calc(100vh - 350px);
+        overflow-x: auto
+    }
+   
+}

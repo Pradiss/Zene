@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zene</title>
+  <link rel="icon" href="img/logozene.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>  
+    <nav class="navbar bg-body-tertiary navbar-expand-lg ">
+      <div id="head" class="container">
+        <div class="container d-flex align-items-center justify-content-between ">
+          <a class="navbar-brand" src="img/logozene.png" href="index.html"><img style="width: 70px;" src="img/logozene.png"
+              alt="">
+          </a>
+          <input class=" text-center barraPesquisa" type="search" placeholder="Search" >
+          
+          <button id="btnn" class="navbar-toggler mx-md-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+             <a href="index.html"> <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img style="width: 80px;" src="img/logozene.png" alt="">
+              </h5></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body justify-content-end">
+              <ul class="navbar-nav  flex-glow pe-3">
+                <li class="nav-item">
+                  <!-- <a class="nav-link active" aria-current="page" href="index.html" >Home</a> -->
+                </li>
+  
+                <li class="nav-item pt-1">
+                  <a class="nav-link mx-md-2" href="perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item pt-1">
+                  <a class="nav-link mx-md-2" href="categoria.html">Categoria</a>
+                </li>
+                <li class="nav-item pt-1">
+                  <a class="nav-link mx-md-2" href="chat.html">Chat</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mx-md-2" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <!-- <img src="img/iconeavatarperfil.jpg" style="width: 50px;"  alt=""> --><i
+                      class="bi bi-person-fill fs-5"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Cadastre-se</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar</a>
+                    </li>
+                  </ul>
+              </ul>
+            </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="bg-secondary">
+      <div class="container py-4">
+        <div class="main-body">
+              <div class="row gutters-sm">
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card">
+                    <div class="card-body rounded ">
+                      <div class="d-flex flex-column align-items-center text-center">
+                        <img  src="img/cantora.png" alt="Admin" class="" width="100">
+                        <div class="mt-3 text-light">
+                          <h4>Gabrielly</h4>
+                          <p class="text-secondary mb-1">Integrante da Banda:<a href="#" class="mx-1">Gaby</a></p> 
+                          <p class="text-secondary mb-1">Cantora | Mpb</p>
+                          <p class="text-secondary font-size-sm">Americana, São Paulo, BR</p>
+                          <!-- <a href="#"><button class="btn btn-md botaoCard">Contratar</button></a> -->
+                          <a href="chat.html"><button class="btn btn-md botaoCard">Mensagem</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mt-3 text-light  ">
+                    <ul class="list-group list-group-flush ">
+                      <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                        <h6 class="mb-0"><i class="mx-1 bi bi-whatsapp"></i>whatsapp</h6>
+                        <span class="text-secondary">(19) 9 8980-4539</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                        <h6 class="mb-0"><i class="mx-1 bi bi-instagram"></i>Instagram</h6>
+                        <span class="text-secondary">_Gaby</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                        <h6 class="mb-0"><i class="mx-1 bi bi-facebook"></i>Facebook</h6>
+                        <span class="text-secondary">_Gaby</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                        <h6 class="mb-0"><i class="mx-1 bi bi-tiktok"></i>Tik-Tok</h6>
+                        <span class="text-secondary">_Gaby</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                        <h6 class="mb-0"><i class="mx-1 bi bi-twitter-x"></i>Twitter</h6>
+                        <span class="text-secondary">_Gaby</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators ">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img id="gaby" src="img/Bandagaby.svg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img id="gaby" src="img/Bandagaby.svg" class="d-block w-100 " alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <div class="card my-3 text-light ">
+                    <div class="card-body rounded ">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <h6 class="mb-0">Nome </h6>
+                        </div>
+                        <div class="  col-sm-9 text-secondary">
+                          Gabrielly
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <h6 class="mb-0">Instrumento</h6>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                          Microfone
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <h6 class="mb-0">Nome da Banda</h6>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                          Cantora Solo
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <h6 class="mb-0">Email</h6>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                          Gabrielly@gmail.com
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <h6 class="mb-0">Whatsapp</i></h6>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                          (19) 9 8980-4539
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <h6 class="mb-0">Local</h6>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            Americana, São Paulo, BR
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <a class="btn btn-md botaoCard "  href="formulario.html">Editar Dados</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+</main>
+
+    <footer >
+      <section class="bg-black ">
+        <div class="container  text-center">
+          <span class="text-white">Todos os direitos reservados | 2024 <i class="bi bi-c-circle"></i></span>
+  
+        </div>
+      </section>
+    </footer>
+    
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-md ">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section id="login" class="container ">
+            <h2 class="p-3 text-light">Faça seu login na Zene</h2>
+          
+              <button><a href="https://www.google.com/gmail/about/"><i class="bi bi-google"></i> Continuar com o
+                  Google</a></button>
+              <button><a href="https://pt-br.facebook.com/login/device-based/regular/login/"><i
+                    class="bi bi-facebook"></i> Continuar com o Facebook</a></button>
+              <button><a href="https://appleid.apple.com/"><i class="bi bi-apple"></i> Continuar com a
+                  Apple</a></button>
+              <button><a href="/cadastro.html"> Continuar com o seu número</a></button>
+
+              <form id="button" class="fw-bold  text-light">
+
+                <div>
+                  <label for="">Email ou nome de usuário</label>
+                  <input type="email" placeholder="Email ou nome de usuário" required>
+                </div>
+
+                <div>
+                  <label for="">Senha</label>
+                  <input id="senha" type="password" placeholder="Senha">
+                  <i id="btn-senha" ></i>
+                </div>
+                <div class="form-check form-switch d-flex align-items-center">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label">Lembrar de mim</label>
+                </div>
+                <div>
+                  <button type="submit">Conecte-se</button>
+                </div>
+
+              </form>
+
+              <div class="text-center p-3 text-link">
+                <a href="#" class="">Esqueceu sua senha?</a>
+              </div>
+            </div>
+
+            <hr>
+            <div class="text-center mb-4 text-link">
+              <p>Não tem uma conta?</p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Inscreva-se na Zene.</a>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+ Button trigger modal 
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content bg-dark ">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Cadastre-se</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section id="cadastro" class="container">
+            <form class=" fw-bold">
+              <div>
+                <label for="">Nome Completo:</label>
+                <input type="text" placeholder="Nome Completo">
+              </div>
+              <div>
+                <label for="">Telefone:</label>
+                <input type="text" placeholder="(19) 9-0808 0808">
+              </div>
+              <div>
+                <label for="">E-mail:</label>
+                <input type="email" placeholder=" Seu E-mail" required>
+              </div>
+              <div>
+                <label for="">Senha:</label>
+                <input type="text" placeholder="Sua Senha">
+              </div>
+              <div class="form-check form-switch d-flex align-items-center ">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Lembrar de mim</label>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-warning">Cadastre-se</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
